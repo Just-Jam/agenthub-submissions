@@ -1,0 +1,22 @@
+{
+  "id": "sequential-thinking-mcp",
+  "name": "Sequential Thinking MCP",
+  "type": "mcp-server",
+  "description": "Official MCP servers collection by ModelContextProtocol",
+  "category": "developer-tools",
+  "githubUrl": "https://github.com/modelcontextprotocol/servers",
+  "stars": 0,
+  "lastCommitDate": "2026-04-14",
+  "license": "Unknown",
+  "compatibility": [
+    "claude-code",
+    "cursor",
+    "windsurf"
+  ],
+  "addedDate": "2026-04-17",
+  "transport": "stdio",
+  "installCommands": {
+    "claude-code": "claude mcp add servers -- npx -y @modelcontextprotocol/servers"
+  },
+  "config": "{\"command\":\"npx\",\"args\":[\"-y\",\"@modelcontextprotocol/servers\"]}"
+}
